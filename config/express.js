@@ -54,6 +54,7 @@ module.exports = function() {
     /**
      * include all routing configuration
      */
+    require('../routes/meeting.routes.js')(app);
     require('../routes/user.routes.js')(app);
 
     // export the express app
